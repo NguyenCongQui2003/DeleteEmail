@@ -48,6 +48,21 @@ Chọn định dạng JSON và nhấp "Create".
 
 Tệp .json sẽ được tải về máy bạn. Giữ tệp này an toàn, vì nó chứa thông tin nhạy cảm.
 
+(Nếu Google Cloud đã chặn việc tạo khóa (key) cho Service Account trong tổ chức:
+ Cách xử lý (nếu bạn là Admin tổ chức hoặc có quyền thích hợp):
+👉 Bước 1: Truy cập IAM Policy
+Vào Google Cloud Console.
+
+Chọn IAM & Admin > Policies (hoặc vào https://console.cloud.google.com/iam-admin/orgpolicies).
+
+Tìm dòng có tên "Disable Service Account Key Creation" (iam.disableServiceAccountKeyCreation).
+
+Nhấp vào đó và nhấn vào "Manage policy".
+
+Chọn "Override parent's policy",
+
+Rules chọn "Off" và cuối cùng chọn "Set policy"
+
 **🧩 Bước 5: Mở Script**
 ➤ Bước 1: Mở tệp JSON đã tải về và tìm các trường sau:
 
@@ -74,4 +89,5 @@ _**(Nếu ID không đúng thì vào link github để lấy ID:
 GitHub: https://github.com/googleworkspace/apps-script-oauth2
 Hướng dẫn của Google: https://github.com/googleworkspace/apps-script-oauth2#using-the-library)**_
 
+Ở ô "Sevices" chọn **Admin SDK API** và **Gmail API**
 
