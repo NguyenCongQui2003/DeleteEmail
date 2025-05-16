@@ -61,7 +61,7 @@ Nhấp vào đó và nhấn vào "Manage policy".
 
 Chọn "Override parent's policy",
 
-Rules chọn "Off" và cuối cùng chọn "Set policy"
+Rules chọn "Off" và cuối cùng chọn "Set policy")
 
 **🧩 Bước 5: Mở Script**
 ➤ Bước 1: Mở tệp JSON đã tải về và tìm các trường sau:
